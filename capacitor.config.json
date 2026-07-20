@@ -1,0 +1,17 @@
+{
+	"appId": "com.voxo.app",
+	"appName": "VOXO",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	},
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	}
+}
